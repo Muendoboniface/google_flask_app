@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<p style="color: white;">Hello, {{ name }}! You're logged in! Email: {{ email }}</p>
+<div>
+    <p style="color: white;">Your Google Profile Picture</p>
+    <img src="{{ profile_pic }}" alt="Google profile pic">
+</div>
+<a class="button" href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}

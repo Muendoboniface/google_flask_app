@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f8f8f8; */
+    background: url(../img/green-kali-abstract-sky-dark-16x9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 6pc;
+    /* border: 2px solid blue; */
+    border-radius: 2px;
+
+}
+
+header {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 4pc;
+}
+.intro{
+    color: #f8f8f8;
+    text-align: center;
+    font-size:larger;
+}
+main {
+    padding: 20px;
+    font-size: larger;
+    margin: 20px;
+    /* position: relative; */
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #3367d6;
+}
+footer{
+    background-color: #a69494;
+    margin: 6pc;
+    height: 3pc;
+    text-align: center;
+}
+footer>P{
+    padding: 10px;
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-color: #a69494;
+    }
+}
